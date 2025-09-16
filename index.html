@@ -6,6 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.two-columns {
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -41,7 +48,7 @@
 										computer science as a second year. I am very passionate about programming and especially developing games.
 										My love of coding drives me internally and I relish every opportunity to tackle the deepest technical 
 										challenges.
-										Here are some of my projects over the years and feel free to check out my Github page.
+										Here are some of my technical skills and projects over the years and feel free to check out my Github page.
 									</p>
 								</header>
 								<ul class="icons">
@@ -60,21 +67,20 @@
 							<section class="post">
 								<div class="row">
 									<div class="col-6 col-12-small">
-
 										<h3>Languages</h3>
-										<ul>
+										<ul class="two-columns">
 											<li>Python</li>
 											<li>Java</li>
-											<li>C#</li>
-											<li>C++</li>
+											<li>C/C#/C++</li>
 											<li>GDScript</li>
 											<li>HTML/CSS</li>
 											<li>JavaScript</li>
 											<li>TypeScript</li>
+											<li>Assembly</li>
 										</ul>
 
 										<h3>Development Tools</h3>
-										<ul class="alt">
+										<ul class="two-columns">
 											<li>Git</li>
 											<li>GitHub</li>
 											<li>VS Code</li>
@@ -88,19 +94,19 @@
 									<div class="col-6 col-12-small">
 
 										<h3>Frameworks</h3>
-										<ul class="alt">
+										<ul class="two-columns">
 											<li>Unity</li>
 											<li>JavaFX</li>
 											<li>Godot</li>
 											<li>Blender</li>
 											<li>Kivy</li>
-											<li>PyTest</li>
-											<li>Unittest</li>
-											<li>Maven</li>
+											<li>PyTorch</li>
+											<li>ROS</li>
+											<li>React</li>
 										</ul>
 
 										<h3>Libraries</h3>
-										<ul class="alt">
+										<ul class="two-columns">
 											<li>Node.js</li>
 											<li>React.js</li>
 											<li>Pillow</li>
@@ -108,6 +114,7 @@
 											<li>NumPy</li>
 											<li>Matplotlib</li>
 											<li>PyGame</li>
+											<li>Scikit-learn</li>
 										</ul>
 
 									</div>
@@ -121,62 +128,69 @@
 									<header>
 										<h2><a>House of Crimson</a></h2>
 									</header>
-									<a href="https://github.com/OhijMik/House-of-Crimson" class="image fit"><img src="images\HouseOfCrimson.png" alt=""/></a>
-									<p>Developed a 3D horror game using the Godot game engine, focusing on immersive gameplay and atmosphere.
+									<a class="image fit"><img src="images\HouseOfCrimson.png" alt=""/></a>
+									<p>Developing a 3D horror game using the Godot game engine, focusing on immersive gameplay and atmosphere.
 										Created and animated all character models in Blender, enhancing the visual and interactive elements of the game.
 										Utilized the A* algorithm for enemy pathfinding, enabling dynamic and realistic AI behavior.
 									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/OhijMik/House-of-Crimson" class="button">Link to Repository</a></li>
-									</ul>
+									
+								</article>
+								<article>
+									<header>
+										<h2><a>LoL Matchup Predictor</a></h2>
+									</header>
+									<p>Built a machine learning pipeline to predict League of Legends match outcomes based on champion draft compositions.
+										Engineered role-based feature vectors from 2,000+ professional matches and implemented K-Nearest Neighbors with hyperparameter tuning.
+										Achieved ~55% test accuracy, demonstrating that the draft alone has limited predictive power compared to gameplay factors.
+
+									</p>
+									
+								</article>
+								<article>
+									<header>
+										<h2><a>Paint Program</a></h2>
+									</header>
+									<a class="image fit"><img src="images\PaintProgram.png" alt=""/></a>
+									<p>Collaborated in a team of three to design and implement a full-featured Paint application with JavaFX, applying the MVC architecture for modularity and scalability.
+										Developed advanced editing tools and robust file management (new/open/save).
+										Integrated Ollama-powered AI features, enabling users to generate drawings directly from text prompts.
+
+									</p>
 									
 								</article>
 								<article>
 									<header>
 										<h2><a>GunClash</a></h2>
 									</header>
-									<a href="https://github.com/OhijMik/GunClash" class="image fit"><img src="images\GunClash.png" alt=""/></a>
+									<a class="image fit"><img src="images\GunClash.png" alt=""/></a>
 									<p> Developed a platformer fighting game using Python and Pygame, with both single-player (AI bot) 
 										and two-player (local multiplayer) modes. Designed engaging gameplay mechanics and optimized 
 										keyboard controls for an immersive experience.
 									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/OhijMik/GunClash" class="button">Link to Repository</a></li>
-									</ul>
 									
 								</article>
 								<article>
 									<header>
 										<h2><a>EagleHunters</a></h2>
 									</header>
-									<a href="https://github.com/OhijMik/EagleHunters" class="image fit"><img src="images\EagleHunter1.png" alt=""/></a>
+									<a class="image fit"><img src="images\EagleHunter1.png" alt=""/></a>
 									<p>Developed a 2D game using Godot for a GameJam, centered around the theme "one ability and cards." 
 										Players defeat waves of eagles by shooting cards with damage values determined by the card numbers, 
 										incorporating strategic gameplay and wave-based enemy mechanics.
 									</p>
-									<div class="row">
-										<ul class="actions special">
-											<li><a href="https://github.com/OhijMik/EagleHunters" class="button">Link to Repository</a></li>
-										</ul>
-									</div>
 									
 								</article>
 								<article>
 									<header>
 										<h2><a>Chatbot</a></h2>
 									</header>
-									<a href="https://github.com/OhijMik/ChatBot" class="image fit"><img src="images\Chatbot.png" alt=""/></a>
+									<a class="image fit"><img src="images\Chatbot.png" alt=""/></a>
 									<p>Developed using NodeJS, JavaScript, and CSS.
 										Created an interactive chatbot that responds to simple user inputs.
 										Implemented basic conversation flow logic to handle various message types.
 										Designed a clean and user-friendly interface with responsive styling using CSS.
 										Demonstrated proficiency in full-stack development with front-end (JavaScript, CSS) and back-end (NodeJS) technologies.
 									</p>
-									<div class="row">
-										<ul class="actions special">
-											<li><a href="https://github.com/OhijMik/ChatBot" class="button">Link to Repository</a></li>
-										</ul>
-									</div>
 									
 								</article>
 							</section>
@@ -210,7 +224,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
